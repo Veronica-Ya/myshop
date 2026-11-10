@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мой магазин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Мой магазин</h1>
+    <div>
+      <button id="clear-cart-btn" style="margin-right: 15px; background: transparent; color: white; border: 1px solid white; padding: 5px 10px; border-radius: 5px; cursor: pointer;">Очистить корзину</button>
+      Корзина: <span id="cart-count">0</span> шт. на <span id="cart-sum">0</span> ₽
+    </div>
+  </header>
+  <main>
+    <div id="catalog" class="catalog"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
